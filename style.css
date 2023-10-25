@@ -133,7 +133,6 @@ header {
   font-family: "TTlakesReg";
   font-weight: 500;
   font-size: 16px;
-  padding-bottom: 268px;
 }
 
 
@@ -209,4 +208,11 @@ footer {
 
 .footer__lang p:hover {
   color: #7E7E82;
+}
+
+.body__divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
