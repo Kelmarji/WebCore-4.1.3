@@ -53,19 +53,6 @@ body {
               -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
 
 }
-@media (min-width: 1120px) {
-  .body {
-    width: 1120px;
-  }
-}
-
-@media (min-width: 1180px) {
-  body {
-    margin: 0 auto; /* выравниваем контент по центру */
-    max-width: none; /* убираем максимальное ограничение ширины контента */
-  }
-
-}
 
 header {
   padding: 24px;
