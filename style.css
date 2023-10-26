@@ -43,7 +43,9 @@ html {
   box-sizing: border-box;
 }
 
+
 body {
+  overflow: hidden;
   height: 100%;
   max-width: 320px;
   font-family: TTlakesReg;
@@ -120,14 +122,14 @@ header {
   padding-left: 24px;
   font-family: "TTlakesReg";
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 24px; /* 150% */
   letter-spacing: -0.2px;
 }
 
 
 .main__items--list li {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   align-items: center;
   color: #000;
   transition: color 0.4s ease;
@@ -188,6 +190,8 @@ footer {
 }
 
 .footer__lang {
+
+  margin-bottom: 40px;
   transition: color 0.4s ease;
   display: flex;
   flex-direction: row;
