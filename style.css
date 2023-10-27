@@ -152,6 +152,7 @@ header {
 }
 footer {
   margin: 0px;
+  margin-bottom: 40px;
   padding: 0px 0px 16px 24px;
   display: flex;
   flex-direction: column;
@@ -167,7 +168,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .footer__contacts a {
@@ -186,8 +187,7 @@ footer {
 }
 
 .footer__lang {
-
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   transition: color 0.4s ease;
   display: flex;
   flex-direction: row;
@@ -204,5 +204,5 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 95vh;
+  height: 100vh;
 }
